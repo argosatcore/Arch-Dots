@@ -1,0 +1,11 @@
+[Default Applications]
+text/x-matlab=nvim.desktop
+image/svg+xml=org.inkscape.Inkscape.desktop
+text/plain=nvim.desktop
+application/xml=nvim.desktop
+
+[Added Associations]
+text/x-matlab=nvim.desktop;
+image/svg+xml=org.inkscape.Inkscape.desktop;
+text/plain=nvim.desktop;
+application/xml=nvim.desktop;
