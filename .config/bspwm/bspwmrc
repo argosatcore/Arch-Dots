@@ -34,3 +34,6 @@ bspc rule -a Screenkey manage=off
 bspc rule -a Xmessage state=floating
 bspc rule -a Galculator state=floating
 bspc rule -a Arandr state=floating
+bspc rule -a Pavucontrol state=floating rectangle=80x10
+bspc rule -a Nm-connection-editor state=floating rectangle=80x10
+

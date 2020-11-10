@@ -27,7 +27,7 @@ super + ctrl + b
 
 # terminal emulator
 super + @space
-	urxvt	
+	xterm	
 
 # program launcher
 super + @space d

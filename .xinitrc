@@ -60,7 +60,7 @@ picom -f &
 
 
 #----Enable transparency for Xterm
-#devilspie &
+devilspie &
 
 
 #----Set screen brightness to 5%
@@ -84,7 +84,8 @@ xsetroot -cursor_name right_ptr &
 
 
 #----Set random wallpapers
-feh --bg-fill --randomize /home/carlos/Pictures/Wallpapers/ &	
+#feh --bg-fill --randomize /home/carlos/Pictures/Wallpapers/ &	 
+feh --bg-fill /home/carlos/Pictures/Wallpapers/GKHAL_BTW.png &	
 
 
 #----Start window manager
