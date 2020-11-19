@@ -60,7 +60,7 @@ xterm*highlightSelection: true
 xterm*highlightTextColor: XtDefaultBackground
 
 ! Font settings
-xterm*faceName: Hack 
+xterm*faceName: Monospace
 xterm*faceSize: 12
 xterm*renderFont: true
 xterm*boldColors: true
@@ -96,15 +96,6 @@ xterm*translations: #override \n\
 	Ctrl Shift <KeyPress>Next: smaller-vt-font() \n\
 	Ctrl Shift <KeyPress>Prior: larger-vt-font() \n\
 	Ctrl Shift <KeyPress>Home: set-vt-font(d)
-
-! Perl extensions:
- URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
- URxvt.url-select.launcher:  firefox 
- URxvt.url-select.underline: true
- URxvt.keysym.M-u:           perl:url-select:select_next
- URxvt.keysym.M-Escape:      perl:keyboard-select:activate
- URxvt.keysym.M-s:           perl:keyboard-select:search
-
 
 ! DO NOT EDIT THIS.  IT IS CONTROLLED PROGRAMMATICALLY.
 ! Use my active Tempus theme.
