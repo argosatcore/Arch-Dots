@@ -89,7 +89,7 @@ xrdb .Xresources
 
 #----Set random wallpapers
 #feh --bg-fill --randomize /home/carlos/Pictures/Wallpapers/ &	 
-feh --bg-fill /home/carlos/Pictures/Wallpapers/GKHAL_BTW.png &	
+feh --bg-fill /home/carlos/Pictures/Wallpapers/ArchNord.png &	
 
 
 #----Start window manager
