@@ -56,7 +56,7 @@ setxkbmap latam &
 
 
 #----Start compositor
-picom -f &
+picom --config /home/carlos/.config/picom/picom.conf &
 
 
 #----Enable transparency for Xterm
@@ -81,6 +81,10 @@ xmodmap .speedswapper &
 
 #----Set curssor
 xsetroot -cursor_name right_ptr &
+
+
+#---Nordify .Xresources
+xrdb .Xresources 
 
 
 #----Set random wallpapers
