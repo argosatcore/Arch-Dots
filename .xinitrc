@@ -51,46 +51,48 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 
-#----Set keyboard layout
+#----Set keyboard layout:
 setxkbmap latam &
 
 
-#----Start compositor
+#----Start compositor:
 picom --config /home/carlos/.config/picom/picom.conf &
 
 
-#----Enable transparency for Xterm
-devilspie &
+#----Enable transparency for Xterm:
+#devilspie &
 
 
-#----Set screen brightness to 5%
+#----Set screen brightness to 5%:
 xbacklight -set 5
 
 
-#----start the Tint2 panel
+#----start the Tint2 panel:
 tint2 &
 
 
-#----Lefthanded mouse
+#----Lefthanded mouse:
 xmodmap .mouseconfig &
 
 
-#----Swap Esc with Caps Lock
+#----Swap Esc with Caps Lock:
 xmodmap .speedswapper &
 
 
-#----Set curssor
+#----Set cursor:
 xsetroot -cursor_name right_ptr &
 
 
 #---Nordify .Xresources
-xrdb .Xresources 
+#xrdb .Xresources 
 
 
-#----Set random wallpapers
+#----Set random wallpapers:
 #feh --bg-fill --randomize /home/carlos/Pictures/Wallpapers/ &	 
 feh --bg-fill /home/carlos/Pictures/Wallpapers/ArchNord.png &	
 
+#----Start sxhkd:
+pgrep -x sxhkd > /dev/null || sxhkd &
 
 #----Start window manager
 exec bspwm

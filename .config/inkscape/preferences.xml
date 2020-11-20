@@ -540,7 +540,7 @@
        x="0"
        y="0"
        w="403"
-       h="432"
+       h="392"
        visible="1"
        state="2"
        placement="2" />
@@ -606,7 +606,7 @@
        placement="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi" />
     </group>
@@ -966,9 +966,9 @@
      id="desktop"
      style="fill:#4c566a">
     <group
-       width="1344"
+       width="639"
        height="726"
-       x="10"
+       x="715"
        y="30"
        fullscreen="0"
        id="geometry"
