@@ -1,3 +1,3 @@
 # Arch-Dots
 
-![Arch Sea](https://user-images.githubusercontent.com/64110504/98593808-549f5180-2299-11eb-9540-545f4a59d245.png)
+![Archnord3](https://user-images.githubusercontent.com/64110504/99865056-daaa7a80-2b6c-11eb-9624-c76910c4c5d0.png)
