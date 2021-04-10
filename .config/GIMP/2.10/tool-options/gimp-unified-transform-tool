@@ -1,8 +1,0 @@
-# GIMP gimp-unified-transform-tool options
-
-(background (color-rgb 0.87557603686635943 0.87557603686635943 0.87557603686635943))
-(composited-preview yes)
-(preview-linked yes)
-(synchronous-preview yes)
-
-# end of gimp-unified-transform-tool options
